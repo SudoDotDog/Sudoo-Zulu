@@ -14,3 +14,11 @@ yarn add @sudoo/zulu
 # Or
 npm install @sudoo/zulu --save
 ```
+
+## Usage
+
+```ts
+import { getNATOPhoneticAlphabet } from "@sudoo/zulu";
+
+const character: string = getNATOPhoneticAlphabet('A'); // Alpha
+```

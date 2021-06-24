@@ -33,3 +33,10 @@ export const NATOPhoneticAlphabetMap = {
     Y: 'Yankee',
     Z: 'Zulu',
 };
+
+export const getNATOPhoneticAlphabet = (
+    character: keyof typeof NATOPhoneticAlphabetMap,
+): string => {
+
+    return NATOPhoneticAlphabetMap[character];
+};
